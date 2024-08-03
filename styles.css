@@ -124,6 +124,7 @@ footer h5 p {
     margin-right: .75rem;
     margin-left: .75rem;
 }
+.card {color:#5a5a5a}
 
 
 /* Featurettes
@@ -155,6 +156,17 @@ footer h5 p {
 
 .list-marging-botton li {
     margin-bottom: 5px;
+}
+
+.full-width-image {
+    width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+}
+
+.servicos {
+    text-align: center;
+    margin-bottom: 20px;
 }
 
 /* RESPONSIVE CSS
