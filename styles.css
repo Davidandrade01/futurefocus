@@ -151,7 +151,10 @@ footer h5 p {
 
 .link-secondary {
     color: white !important;
+}
 
+.list-marging-botton li {
+    margin-bottom: 5px;
 }
 
 /* RESPONSIVE CSS
