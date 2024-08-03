@@ -1,82 +1,127 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Future Focus oferece consultoria especializada em contabilidade e planejamento financeiro. Assessoria em práticas contábeis eficientes, conformidade regulatória, desenvolvimento de orçamentos, análise de fluxo de caixa e gestão de capital de giro.">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="Future Focus oferece consultoria especializada em contabilidade e planejamento financeiro. Assessoria em práticas contábeis eficientes, conformidade regulatória, desenvolvimento de orçamentos, análise de fluxo de caixa e gestão de capital de giro.">
+  <meta name="Future Focus" content="Consultoria em Contabilidade e Planejamento Financeiro">
+  <title>Future Focus</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="./styles/indexStyles.css/carousel.css">
+  <link rel="stylesheet" href="./styles/indexStyles.css/parceiros/carouselParceiros.css">
+  <link rel="stylesheet" href="./styles/cookiesModal/cookiesModal.css">
+</head>
+<body>
+  <main role="main">
 
-    <meta name="Future Focus" content="Consultoria em Contabilidade e Planejamento Financeiro">
-
-
-    <link rel="icon" href="">
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-    <title>Carousel Template for Bootstrap</title>
-
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-
-    <!-- Bootstrap core CSS -->
-    <link href="../../../../dist/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom styles for this template -->
-    <link href="./styles/indexStyles.css/carousel.css" rel="stylesheet">
-
-
-    <!-- Goofle font -->
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-
-    
-    
-  </head>
-  <body>
-
-    
-
-    <main role="main">
-
-      <header data-bs-theme="dark">
-        <nav style="background-color: #465D6B;" class="navbar navbar-expand-md navbar-dark fixed-top">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#"><img src="./images/indexImg/future_focus_logo.png" alt="Future Focus Logo"></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarCollapse">
-                    <ul class="navbar-nav me-auto mb-2 mb-md-0">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Serviços financeiros</a>
-                        </li>
-                        <li class="nav-item"> </li>
-
-                        <a class="nav-link" href="#">Consultores</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Contatos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Clientes</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Blog</a>
-                        </li>
-                       
-                    </ul>
-                    <form class="d-flex justify-content-center align-items-center position-relative" role="search">
-                        <input class="form-control me-2" id="search-input" type="search" placeholder="Pesquisar" aria-label="Search">
-                        <i class="fa fa-search" aria-hidden="true" style="color: white; cursor: pointer;"></i>
-                        <div id="autocomplete-list" class="autocomplete-suggestions"></div>
-                    </form>
-                </div>
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-scrollable">
+        <div class="modal-dialog">
+          <div class="modal-content d-block text-start">
+            <div class="modal-header d-block">
+              <h5 class="modal-title" id="cookieconsentLabel3">Cookies & Privacidade</h5>
+              <p>
+                Nossa página usa cookies para garantir que você tenha a melhor experiencia.
+              </p>
+              <p></p>
             </div>
-        </nav>
+            <div class="modal-body">
+             
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="necessary" checked />
+                <label class="form-check-label" for="necessary">
+                  <p>
+                    <strong>Cookies necessários</strong>
+                    <muted>Ajuda com funcionalidades básicas e navegabilidade do nosso site. </muted>
+                  </p>
+                </label>
+              </div>
+              
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="analytical" />
+                <label class="form-check-label" for="analytical">
+                  <p>
+                    <strong>Cookies analíticos</strong>
+                    <muted> Possibilita garantir estatísticas sobre o uso e trafego de dados no nosso website para que possamos melhorar.</muted>
+                  </p>
+                </label>
+              </div>
+             
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="marketing" />
+                <label class="form-check-label" for="marketing">
+                  <p>
+                    <strong>Cookies de Marketing</strong>
+                    <muted> Torna possível mostrar anúncios relevantes e conteúdo de mídias sociais.</muted>
+                  </p>
+                </label>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-outline-primary" data-bs-dismiss="modal">
+                Accept necessary
+              </button>
+              <button type="button" class="btn btn-primary" data-bs-dismiss="modal">
+                Accept all
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+
+    <header data-bs-theme="dark">
+      <nav style="background-color: #465D6B;" class="navbar navbar-expand-md navbar-dark fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="./images/indexImg/future_focus_logo.png" alt="Future Focus Logo"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav me-auto mb-2 mb-md-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Serviços financeiros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Consultores</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contatos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Clientes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Blog</a>
+              </li>
+            </ul>
+            <div class="form-group d-flex justify-content-center align-items-center position-relative" role="search">
+              <input class="form-control me-2" id="search-input" type="search" placeholder="Pesquisar" list="list-servicos" aria-label="Search">
+              <i class="fa fa-search" aria-hidden="true" style="color: white; cursor: pointer;"></i>
+              <datalist id="list-servicos">
+                <option value="blog"></option>
+                <option value="Consultores"></option>
+                <option value="Contatos"></option>
+                <option value="Clientes"></option>
+                <option value="Livro de reclamação"></option>
+                <option value="Serviços Financeiros"></option>
+                <option value="Sobre nós"></option>
+              </datalist>
+            </div>
+            
+          </div>
+        </div>
+      </nav>
     </header>
 
-
-      <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
+   
+    
+    
+<div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
           <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -125,102 +170,162 @@
       </div>
       
 
-      <!-- Marketing messaging and featurettes
-      ================================================== -->
-      <!-- Wrap the rest of the page in another container to center all the content. -->
 
-      <div class="container marketing">
 
-        <!-- Three columns of text below the carousel -->
+
+    <div class="container marketing">
+      <div class="row">
+        <div class="col-lg-4">
+          <img class="rounded-circle" src="images/indexImg/christina-wocintechchat-com-0Zx1bDv5BNY-unsplash.jpg" alt="mulher executiva jovem" width="140" height="140">
+          <h2>Ana G. Martins</h2>
+          <h6>Especialista em Planejamento Financeiro</h6>
+          <p>Ana Martins é a líder da equipe de Planejamento Financeiro da Future Focus Consulting. Com mais de 15 anos de experiência no setor financeiro, Ana é especialista em desenvolvimento de orçamentos, projeções financeiras, análise de fluxo de caixa e gestão de capital de giro. Ela possui um profundo conhecimento em planejamento de investimentos e financiamento, ajudando empresas a otimizar seus recursos financeiros e a alcançar crescimento sustentável.</p>
+          <p><a class="btn btn-secondary" href="#" role="button">Ver perfil</a></p>
+        </div>
+        <div class="col-lg-4">
+          <img class="rounded-circle" src="./images/indexImg/ali-morshedlou-WMD64tMfc4k-unsplash.jpg" alt="homem executivo" width="140" height="140">
+          <h2>João de Almeida</h2>
+          <h6>Especialista em Planejamento Financeiro</h6>
+          <p>Especialista em investimentos e planejamento financeiro na Future Focus Consulting. Com uma carreira de mais de 20 anos no setor financeiro, Ricardo é conhecido por sua habilidade em desenvolver orçamentos detalhados e criar projeções financeiras precisas. Ele possui um profundo entendimento das dinâmicas de mercado e das estratégias de investimento, permitindo-lhe oferecer soluções sob medida para maximizar o retorno sobre os investimentos e otimizar a alocação de recursos.</p>
+          <p><a class="btn btn-secondary" href="#" role="button">Ver perfil</a></p>
+        </div>
+        <div class="col-lg-4">
+          <img class="rounded-circle" src="./images/indexImg/vitaly-gariev-COxhXJU9rTg-unsplash (1).jpg" alt="mulher executiva jovem 2" width="140" height="140">
+          <h2>Beatriz Souza</h2>
+          <h6>Coordenadora de Conformidade Contábil</h6>
+          <p>Beatriz Souza é a Coordenadora de Conformidade Contábil na Future Focus Consulting. Com uma carreira dedicada à regulamentação financeira e contábil, Beatriz é especialista em ajudar empresas a navegar pelas complexas regulamentações da EUR-Lex. Ela assessora nossos clientes na adaptação de suas práticas contábeis para garantir total conformidade com as normas da União Europeia, minimizando riscos e evitando penalidades.</p>
+          <p><a class="btn btn-secondary" href="#" role="button">Ver perfil</a></p>
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+    <div class="container col-md-10 mb-4">
+
+     <h1> Temos  uma planificação financeira sofisticada</h1> 
+      <p>A análise de viabilidade financeira para a expansão do nosso salão foi essencial para tomarmos a decisão de investir em uma nova unidade. O relatório detalhado nos mostrou as oportunidades e os desafios do projeto, </p>
+      <p>Invista no futuro do seu negócio com a Future Focus Consulting. Utilizando as mais recentes ferramentas e metodologias, oferecemos serviços de contabilidade, viabilidade financeira, gestão de fluxo de caixa e investimentos que impulsionam o crescimento e a rentabilidade. Nossa abordagem inovadora combina expertise técnica com uma visão estratégica, permitindo que você identifique oportunidades, minimize riscos e alcance seus objetivos.</p>
+    </div>
+
+
+    <hr class="featurette-divider">
+
+      <div class="container">
         <div class="row">
-          <div class="col-lg-4">
-            <img class="rounded-circle" src="images/indexImg/christina-wocintechchat-com-0Zx1bDv5BNY-unsplash.jpg" alt="mulher executiva jovem" width="140" height="140">
-            <h2>Ana G. Martins</h2>
-            <h6>Especialista em Planejamento Financeiro</h6>
-            <p>Ana Martins é a líder da equipe de Planejamento Financeiro da Future Focus Consulting. Com mais de 15 anos de experiência no setor financeiro, Ana é especialista em desenvolvimento de orçamentos, projeções financeiras, análise de fluxo de caixa e gestão de capital de giro. Ela possui um profundo conhecimento em planejamento de investimentos e financiamento, ajudando empresas a otimizar seus recursos financeiros e a alcançar crescimento sustentável.</p>
-            <p><a class="btn btn-secondary" href="#" role="button">Ver perfil</a></p>
-          </div><!-- /.col-lg-4 -->
-          <div class="col-lg-4">
-            <img class="rounded-circle" src="./images/indexImg/ali-morshedlou-WMD64tMfc4k-unsplash.jpg" alt="homem executivo" width="140" height="140">
-            <h2>João de almeida</h2>
-            <h6>Especialista em Planejamento Financeiro</h6>
-            <p>Especialista em investimentos e planejamento financeiro na Future Focus Consulting. Com uma carreira de mais de 20 anos no setor financeiro, Ricardo é conhecido por sua habilidade em desenvolver orçamentos detalhados e criar projeções financeiras precisas. Ele possui um profundo entendimento das dinâmicas de mercado e das estratégias de investimento, permitindo-lhe oferecer soluções sob medida para maximizar o retorno sobre os investimentos e otimizar a alocação de recursos.</p>
-            <p><a class="btn btn-secondary" href="#" role="button">Ver perfil</a></p>
-          </div><!-- /.col-lg-4 -->
-          <div class="col-lg-4">
-            <img class="rounded-circle" src="./images/indexImg/vitaly-gariev-COxhXJU9rTg-unsplash (1).jpg" alt="mulher executiva jovem 2" width="140" height="140">
-            <h2>Beatriz Souza</h2>
-            <h6>Coordenadora de Conformidade Contábil</h6>
-            <p>Beatriz Souza é a Coordenadora de Conformidade Contábil na Future Focus Consulting. Com uma carreira dedicada à regulamentação financeira e contábil, Beatriz é especialista em ajudar empresas a navegar pelas complexas regulamentações da EUR-Lex. Ela assessora nossos clientes na adaptação de suas práticas contábeis para garantir total conformidade com as normas da União Europeia, minimizando riscos e evitando penalidades.
-                <br>
-            </p>
-            <br>
-            <p><a class="btn btn-secondary" href="#" role="button">Ver perfil</a></p>
-          </div><!-- /.col-lg-4 -->
-        </div><!-- /.row -->
-
-
-        <!-- START THE FEATURETTES -->
-
-        <hr class="featurette-divider">
-
-        <div class="row featurette">
-          <div class="col-md-7">
-            <h2 class="featurette-heading">Vejle Bookstore</h2>
-            <p class="lead">"Implementamos melhorias significativas em nossos serviços, aprimorando o desenvolvimento de orçamentos e projeções financeiras, além de refinar a conformidade contábil, resultando em estratégias financeiras mais eficazes e alinhadas às necessidades específicas de cada empresa"</p>
-          </div>
-          <div class="col-md-5">
-            <img class="featurette-image img-fluid mx-auto" src="./images/indexImg/veijeBookstore.png" alt="logo vejle bookstore">
-          </div>
+          <div class="col-md-12 mb-4">
+            <div  style="width: 100%;">
+  
+                <div class="card-body">
+                    <h1 class="card-title">O que dizem nossos Clientes</h1>
+                    <p class="card-text">Nosso compromisso é com a excelência e a satisfação de nossos clientes. </p>
+                    
+                </div>
+            </div>
         </div>
 
-        <hr class="featurette-divider">
 
-        <div class="row featurette">
-          <div class="col-md-7 order-md-2">
-            <h2 class="featurette-heading">Porto Scarpa</h2>
-            <p class="lead">Aprimoramos nossos serviços com análises financeiras mais detalhadas e estratégias de investimento personalizadas, proporcionando às empresas soluções que impulsionam o crescimento sustentável e garantem total conformidade contábil."</p>
-          </div>
-          <div class="col-md-5 order-md-1">
-            <img class="featurette-image img-fluid mx-auto" src="./images/indexImg/Porto_Scarpa.png" alt="logo porto scarpa">
-          </div>
+            <div class="col-md-3 mb-4">
+                <div class="card" style="width: 100%;">
+                    <img class="card-img-top" src="./images/indexImg/Real State.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Harmony Real State</h5>
+                        <p class="card-text">"Desde que contratamos o serviço de fluxo de caixa, a gestão financeira da nossa imobiliária se tornou muito mais eficiente."</p>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4">
+                <div class="card" style="width: 100%;">
+                    <img class="card-img-top" src="./images/indexImg/techno.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Techno Startup</h5>
+                        <p class="card-text"> "A equipe especializada nos auxiliou a entender as complexidades da legislação tributária e a otimizar nossos impostos."</p>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4">
+                <div class="card" style="width: 100%;">
+                    <img class="card-img-top" src="./images/indexImg/olivia.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Olívia Wilson</h5>
+                        <p class="card-text">"Agora, sabemos exatamente quanto ganhamos e gastamos, o que nos permitiu investir em novos conteúdos e impulsionar o crescimento do nosso negócio."</p>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4">
+                <div class="card" style="width: 100%;">
+                    <img class="card-img-top" src="./images/indexImg/rs.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Rs Coiffeur</h5>
+                        <p class="card-text">"A análise de viabilidade financeira para a expansão do nosso salão foi essencial para tomarmos a decisão de investir em uma nova unidade. "</p>
+                        
+                    </div>
+                </div>
+            </div>
+         
+          
         </div>
-
-        <hr class="featurette-divider">
-
-        <div class="row featurette">
-          <div class="col-md-7">
-            <h2 class="featurette-heading">Brasão Hoteis </h2>
-            <p class="lead">Nossas melhorias incluem a integração de tecnologia avançada para otimização de orçamentos e a criação de projeções financeiras precisas, assegurando às empresas maior eficiência e conformidade com as regulamentações contábeis."</p>
-          </div>
-          <div class="col-md-5">
-            <img class="featurette-image img-fluid mx-auto" src="./images/indexImg/brasaoHoteis.png" alt="logo brasao hoteis">
-          </div>
-        </div>
-
-        <hr class="featurette-divider">
-
-        <!-- /END THE FEATURETTES -->
-
-      </div><!-- /.container -->
+    </div>
+  
+  
 
 
-      <!-- FOOTER -->
-      <footer class="container">
-        <p class="float-right"><a href="#">Back to top</a></p>
-        <p>&copy; 2017-2018 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
-      </footer>
-    </main>
+  </main>
+
+
+ 
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const searchInput = document.getElementById('search-input');
+      
+      searchInput.addEventListener('input', function() {
+        const value = this.value;
+        let url;
+  
+        switch (value) {
+          case 'blog':
+            url = './blog.html'; // Substitua com a URL correta
+            break;
+          case 'Consultores':
+            url = '/consultores'; // Substitua com a URL correta
+            break;
+          case 'Contatos':
+            url = '/contatos'; // Substitua com a URL correta
+            break;
+          case 'Clientes':
+            url = '/clientes'; // Substitua com a URL correta
+            break;
+          case 'Livro de reclamação':
+            url = '/livro-de-reclamacao'; // Substitua com a URL correta
+            break;
+          case 'Serviços Financeiros':
+            url = '/servicos-financeiros'; // Substitua com a URL correta
+            break;
+          case 'Sobre nós':
+            url = '/sobre-nos'; // Substitua com a URL correta
+            break;
+          default:
+            url = null;
+        }
+  
+        if (url) {
+          window.location.href = url;
+        }
+      });
+    });
+  </script>
+  
+    </script>
     
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script>window.jQuery || document.write('<script src="../../../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
-    <script src="../../../../assets/js/vendor/popper.min.js"></script>
-    <script src="../../../../dist/js/bootstrap.min.js"></script>
-    <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
-    <script src="../../../../assets/js/vendor/holder.min.js"></script>
-  </body>
+        <!-- <script src="./script/index/main.js"></script> -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+        
+        <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
+
+
+        <script src="./script/index/main.js"></script>
+</body>
 </html>
