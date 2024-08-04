@@ -1,106 +1,11 @@
-/* Navbar*/
 
-.autocomplete-suggestions {
-    border: 1px solid #ccc;
-    max-height: 150px;
-    overflow-y: auto;
-    background-color: white;
-    position: absolute;
-    z-index: 1000;
-    width: 100%;
-  }
-  .autocomplete-suggestion {
-    padding: 8px;
-    cursor: pointer;
-  }
-  .autocomplete-suggestion:hover {
-    background-color: #e9ecef;
-  }
-  
-  
-  /* CUSTOMIZE THE CAROUSEL
-  -------------------------------------------------- */
-  
-  /* Carousel base class */
-  .carousel {
-  
-    margin-bottom: 4rem;
-    
-    
-    
-  }
-  /* Since positioning the image, we need to help out the caption */
-  .carousel-caption {
-    bottom: 3rem;
-    z-index: 10;
-    
-    color:white;
-  
-    > h1{
-      margin-bottom: 32px;
-    }
-  }
-  
-  /* Declare heights because of positioning of img element */
-  .carousel-item {
-    height: 45rem;
-    background-color: #777;
-    object-fit: contain;
-    
-  }
-  .carousel-item > img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    min-width: 100%;
-    height: 100%;
-     opacity: 0.7;
-  }
-  
-  
-  /* MARKETING CONTENT
-  -------------------------------------------------- */
-  
-  /* Center align the text within the three columns below the carousel */
-  .marketing .col-lg-4 {
-    margin-bottom: 1.5rem;
-    text-align: center;
-  }
-  .marketing h2 {
-    font-weight: 400;
-  }
-  .marketing h6{
-    margin-bottom: 32px;
-  }
-  .marketing .col-lg-4 p {
-    margin-right: .75rem;
-    margin-left: .75rem;
-  }
-  
-  
-  /* Featurettes
-  ------------------------- */
-  
-  .featurette-divider {
-    margin: 5rem 0; /* Space out the Bootstrap <hr> more */
-    color: #1963A0;
-    border: 1px solid;
-  }
-  
-  /* Thin out the marketing headings */
-  .featurette-heading {
-    font-weight: 300;
-    line-height: 1;
-    letter-spacing: -.05rem;
-    margin-bottom: 100px;
-  }
   
   
   /* RESPONSIVE CSS
   -------------------------------------------------- */
   
   @media (min-width: 40em) {
-    /* Bump up size of carousel content */
+    
     .carousel-caption p {
       margin-bottom: 1.25rem;
       font-size: 1.25rem;
@@ -166,32 +71,32 @@
   
   .containerConsultores {
     display: flex;
-    flex-direction: column; /* Alinha os itens em coluna */
-    justify-content: center; /* Centraliza o contêiner horizontalmente */
-    align-items: center; /* Centraliza o contêiner verticalmente */
-    text-align: center; /* Centraliza o texto dentro do contêiner */
-    padding: 20px; /* Adiciona padding ao redor do contêiner */
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    text-align: center; 
+    padding: 20px; 
   }
   
   .image-text-container {
     display: flex;
-    flex-direction: column; /* Alinha a imagem e o texto verticalmente */
-    align-items: center; /* Centraliza a imagem e o texto horizontalmente */
-    margin-bottom: 20px; /* Espaço entre os itens na coluna */
+    flex-direction: column; 
+    align-items: center; 
+    margin-bottom: 20px; 
   }
   
   .round-image {
-    width: 140px; /* Define a largura da imagem */
-    height: 140px; /* Define a altura da imagem */
-    border-radius: 50%; /* Torna a imagem redonda */
-    object-fit: cover; /* Garante que a imagem cubra o contêiner sem distorção */
-    margin-bottom: 10px; /* Espaço entre a imagem e o texto */
+    width: 140px; 
+    height: 140px; 
+    border-radius: 50%; 
+    object-fit: cover; 
+    margin-bottom: 10px; 
   }
   
   .image-text {
-    font-size: 16px; /* Tamanho da fonte do texto */
-    color: #333; /* Cor do texto */
-    max-width: 600px; /* Limita a largura do texto para melhor leitura */
+    font-size: 16px; 
+    color: #333; 
+    max-width: 600px; 
   }
   
   
