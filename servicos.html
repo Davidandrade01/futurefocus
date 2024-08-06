@@ -20,10 +20,53 @@
 <link
     href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
     rel="stylesheet">
-<link href="styles.css" rel="stylesheet">
 
+<link href="./styles/servicos/servicos.css" rel="stylesheet">
+<link rel="stylesheet" href="./styles/footer/footer.css">
 
-<div class="container">
+<nav style="background-color: #465D6B;" class="navbar navbar-expand-md navbar-dark fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="./index.html"><img src="./images/indexImg/future_focus_logo.png" alt="Future Focus Logo"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="./servicos.html">Serviços financeiros</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./consultores.html">Consultores</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./contacto.html">Contatos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./index.html">Clientes</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./blog.html">Blog</a>
+          </li>
+        </ul>
+        <div class="form-group d-flex justify-content-center align-items-center position-relative" role="search">
+          <input class="form-control me-2" id="search-input" type="search" placeholder="Pesquisar" list="list-servicos" aria-label="Search">
+          <i class="fa fa-search" aria-hidden="true" style="color: white; cursor: pointer;"></i>
+          <datalist id="list-servicos">
+            <option value="blog"></option>
+            <option value="Consultores"></option>
+            <option value="Contatos"></option>
+            <option value="Clientes"></option>
+            <option value="Livro de reclamação"></option>
+            <option value="Serviços Financeiros"></option>
+            <option value="Sobre nós"></option>
+          </datalist>
+        </div>
+        
+      </div>
+    </div>
+  </nav>
+
+<div class="container"> 
     <div class="row justify-content-center" >
         <div class="col-lg-4 col-md-6 mb-4">
             <h1 class="servicos">Nossos Serviços</h1>
@@ -174,6 +217,58 @@
     </div>
 </div>
 
+<footer class="container py-5" style="background-color: #465d6b;">
+    <div class="row">
+        <div class="col-12 col-md">
+            <a href="./index.html"><img src="../footerImg/future_focus_logo.png"></a>
+
+        </div>
+        <div class="col-6 col-md">
+            <h5 style="margin-bottom: 64px;"> QUEM SOMOS</h5>
+            <ul class="list-unstyled text-small list-marging-botton">
+                <li><a class="link-secondary text-decoration-none" href="./servicos.html">A Future Focus</a></li>
+                <li><a class="link-secondary text-decoration-none" href="./consultores/consultores.html">Equipa</a></li>
+                <li><a class="link-secondary text-decoration-none" href="/servicos.html">Competências</a></li>
+                <li><a class="link-secondary text-decoration-none" href="/blog.html">Blog</a></li>
+            </ul>
+        </div>
+        <div class="col-6 col-md">
+            <h5 style="margin-bottom: 64px; padding-right: 16px; ">SERVIÇOS</h5>
+            <ul class="list-unstyled text-small list-marging-botton" >
+                <li><a class="link-secondary text-decoration-none" href="./servicos.html">Planejamento Financeiro</a></li>
+                <li><a class="link-secondary text-decoration-none" href="./servicos.html">Consultoria em Contabilidade</a></li>
+                <li><a class="link-secondary text-decoration-none" href="./servicos.html">Consultoria em Investimentos</a></li>
+            </ul>
+        </div>
+        <div class="col-6 col-md">
+            <ul class="list-unstyled text-small">
+                <li style="margin-bottom: 64px;"><a class="link-secondary text-decoration-none" href="#">
+                        <H5>NOTÍCIA DE PRIVACIDADE</H5>
+                    </a></li>
+                <li style="margin-bottom: 64px;"><a class="link-secondary text-decoration-none" href="#">
+                        <H5>POLÍTICA DE COOKIES</H5>
+                    </a></li>
+                <li><a class="link-secondary text-decoration-none" href="https://bespoke.deco.proteste.pt/2023/marketplace?key=lvgQ7OpEAMgLr0rYbWTsnlg2lzs&gad_source=1&gclid=Cj0KCQjw8MG1BhCoARIsAHxSiQnn_gN9zWFsCdPUpnt8U8nVknPtqXZmpptQ5JwetF8IIPJFPfNZHEMaAoDVEALw_wcB&site_name=Marketplace&utm_campaign=PTREGSE9P&utm_medium=cpc&utm_source=google" target="_blank">
+                        <H5>DECO PROTESTE</H5>
+                    </a></li>
+            </ul>
+        </div>
+        <div class="col-6 col-md">
+            <ul class="list-unstyled text-small">
+                <li><a class="link-secondary text-decoration-none" href="#">LISBOA</a></li>
+                <p> + 351 21 444 21 00 geral@futurefocus.pt </p>
+                <li><a class="link-secondary text-decoration-none" href="#">PORTO</a></li>
+                <p> + 351 22 444 21 00 geral@futurefocus.pt</p>
+               
+                    
+                    <a class="btn btn-primary" href="./contacto/contacto.html" role="button">Fale conosco</a>
+                </li>
+            </ul>  
+        </div>
+    </div>
+</footer>
+
+<script src="./script/index/main.js"></script>
 
 </body>
 </html>

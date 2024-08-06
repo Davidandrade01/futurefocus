@@ -48,7 +48,35 @@
 
 
 
-
+.card-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* Espaço entre os cards */
+  }
+  
+  .card {
+    margin-top: 100px;
+  
+  
+  }
+  
+  
+  .card-img-top {
+    height: 200px; 
+    object-fit: cover; 
+  }
+  
+  
+  .card-body {
+    padding: 15px; /* Ajuste o padding conforme necessário */
+  }
+  
+  .card-text {
+    margin: 0; /* Remove a margem do parágrafo */
+    padding: 0; /* Remove o padding do parágrafo */
+    text-align: left; /* Garante que o texto está alinhado à esquerda */
+  }
 
 
 

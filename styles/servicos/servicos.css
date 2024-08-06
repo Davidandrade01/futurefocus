@@ -48,15 +48,6 @@ p {
     font-size: 18px;
 }
 
-footer {
-
-    color: white
-}
-
-footer h5 p {
-
-    color: white
-}
 
 
 
@@ -64,18 +55,7 @@ footer h5 p {
 
 
 
-.link-secondary:hover {
-    color: white !important;
 
-}
-
-.link-secondary {
-    color: white !important;
-}
-
-.list-marging-botton li {
-    margin-bottom: 5px;
-}
 
 .full-width-image {
     width: 100%;
@@ -88,11 +68,7 @@ footer h5 p {
     margin-bottom: 20px;
 }
 
-footer {
-    position: relative;
-    z-index: 1;
-    overflow: hidden;
-}
+
 
 .image-container {
     position: relative;
@@ -127,20 +103,7 @@ footer {
     border-radius: 5px;
 }
 
-footer::after {
-    position: absolute;
-    right: 0;
-    top: 0;
-    content: "";
-    height: 400px;
-    width: 400px;
-    background: url(footerImg/mapa.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    z-index: -1;
-    opacity: 0.3;
 
-}
 
 
 .custom-background {
