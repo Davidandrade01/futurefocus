@@ -1,0 +1,155 @@
+/* configuraçoes navbar*/
+
+.autocomplete-suggestions {
+    border: 1px solid #ccc;
+    max-height: 150px;
+    overflow-y: auto;
+    background-color: white;
+    position: absolute;
+    z-index: 1000;
+    width: 100%;
+}
+.autocomplete-suggestion {
+    padding: 8px;
+    cursor: pointer;
+}
+.autocomplete-suggestion:hover {
+    background-color: #e9ecef;
+}
+
+
+
+
+
+/* informaçoes das duas empresas*/
+.table {
+    margin: 0 auto;
+    width: 90vw;
+    border-collapse: collapse;
+    text-align: center;
+}
+.table td {
+    border: none;
+    padding: 8px;
+}
+.table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #f2f2f2;
+    color: black;
+}
+.text-center {
+    text-align: center;
+}
+.contactos_elementos {
+    text-align: center;
+}
+
+
+
+.card-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* Espaço entre os cards */
+  }
+  
+  .card {
+    margin-top: 100px;
+  
+  
+  }
+  
+  
+  .card-img-top {
+    height: 200px; 
+    object-fit: cover; 
+  }
+  
+  
+  .card-body {
+    padding: 15px; /* Ajuste o padding conforme necessário */
+  }
+  
+  .card-text {
+    margin: 0; /* Remove a margem do parágrafo */
+    padding: 0; /* Remove o padding do parágrafo */
+    text-align: left; /* Garante que o texto está alinhado à esquerda */
+  }
+
+
+
+/* formulario de contacto*/
+.container {
+    width: 100vw;
+    margin-right:d-flex justify-content-center;
+    margin-left:d-flex justify-content-center;
+    padding-left: 7.5px;
+    padding-right: 7.5px;
+}
+
+
+
+
+/* css imagens topo*/
+.imagem {
+    display: flex; /* Utiliza o Flexbox para o layout das imagens */
+    justify-content: center; /* Centraliza as imagens horizontalmente no contêiner */
+    gap: 20px; /* Espaço entre as imagens */
+}
+
+.imagem-tamanho {
+    width: 920px; /* Largura da imagem, ajustável */
+    height: 450px; /* Altura da imagem, ajustável */
+    object-fit: cover; /* Ajusta a imagem para cobrir o contêiner sem distorção */
+    border-radius: 8px; /* Bordas arredondadas */
+}
+
+/* Ajusta a largura das imagens se necessário */
+.imagem img:nth-child(2) {
+    width: 930px; /* Largura da segunda imagem */
+}
+
+
+
+
+body {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    color: #5a5a5a;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.btn {
+    background-color: #1D9AD4;
+}
+
+.btn:hover {
+    background-color: #1963A0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+a {
+    font-size: 18px;
+}
+
+h1 {
+    font-size: 52px;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+p {
+    font-size: 18px;
+}

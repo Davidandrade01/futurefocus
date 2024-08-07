@@ -1,0 +1,12 @@
+.btn{
+    background-color: #1D9AD4 ;
+    color: white;
+  }
+  .btn:hover{
+    background-color:#1963A0  ;
+    color: white;
+  }
+
+  p {
+    text-indent: 50px;
+}

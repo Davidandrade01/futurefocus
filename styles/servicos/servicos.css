@@ -1,0 +1,137 @@
+
+
+body {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    color: #5a5a5a;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+    .btn {
+        background-color: #1D9AD4;
+    }
+
+    .btn:hover {
+        background-color: #1963A0;
+    }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+
+
+
+}
+
+a {
+    font-size: 18px;
+}
+
+h1 {
+    font-size: 52px;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+p {
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+.full-width-image {
+    width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+}
+
+.servicos {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+
+.image-container {
+    position: relative;
+   > ul  > li{
+        list-style: circle;
+        font-size: 20px;
+        margin-bottom: 16px;
+    }
+    
+}
+
+.image-wrapper {
+    position: relative;
+    width: 100%;
+    margin-bottom: 36px;
+}
+
+.image-wrapper img {
+    width: 100%;
+    height: 400px; 
+    object-fit: cover; 
+}
+
+.image-number {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: white;
+    font-size: 2rem; 
+    background-color: #1963a09f; /* Fundo semitransparente para melhor visibilidade */
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+
+
+
+.custom-background {
+    background-color: #f8f9fa; /* Cinza claro */
+    border: 2px solid #1963A0; /* Cor das bordas */
+    padding: 20px;
+    margin-bottom: 36px;
+}
+
+/* RESPONSIVE CSS
+  -------------------------------------------------- */
+
+@media (min-width: 40em) {
+
+    /* Bump up size of carousel content */
+    .carousel-caption p {
+        margin-bottom: 1.25rem;
+        font-size: 1.25rem;
+        line-height: 1.4;
+    }
+
+    .featurette-heading {
+        font-size: 50px;
+    }
+}
+
+@media (min-width: 62em) {
+    .featurette-heading {
+        margin-top: 7rem;
+    }
+}

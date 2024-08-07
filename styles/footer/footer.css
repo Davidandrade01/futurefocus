@@ -1,0 +1,45 @@
+footer {
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+
+footer::after {
+    position: absolute;
+    right: 0;
+    top: 0;
+    content: "";
+    height: 400px;
+    width: 400px;
+    background: url(footerImg/mapa.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -1;
+    opacity: 0.3;
+
+}
+
+footer {
+
+    color: white
+}
+
+footer h5 p {
+
+    color: white
+}
+
+
+
+.link-secondary:hover {
+    color: white !important;
+
+}
+
+.link-secondary {
+    color: white !important;
+}
+
+.list-marging-botton li {
+    margin-bottom: 5px;
+}
