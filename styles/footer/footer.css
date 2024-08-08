@@ -11,7 +11,7 @@ footer::after {
     content: "";
     height: 400px;
     width: 400px;
-    background: url(footerImg/mapa.png);
+    background: url(/footerImg/mapa.png);
     background-size: cover;
     background-repeat: no-repeat;
     z-index: -1;
